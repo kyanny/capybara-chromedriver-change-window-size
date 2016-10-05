@@ -13,7 +13,7 @@ Capybara.register_driver :selenium do |app|
                                  browser: :chrome,
                                  desired_capabilities: {
                                    "chromeOptions" => {
-                                     "args" => %w{ window-size=1280,960 }
+                                     "args" => %w{ window-size=1280,800 }
                                    }
                                  }
                                 )
